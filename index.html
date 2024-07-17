@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government of Kenya</title>
+    <link rel="stylesheet" href="text.css">
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  project-id="swift-emblem-429121-a2"
+  agent-id="0a7d2128-9a7e-4d62-911c-6d95a185c360"
+  language-code="en"
+  max-query-length="-1"
+  allow-feedback="all">
+  <df-messenger-chat-bubble
+   chat-title="charlesbot">
+  </df-messenger-chat-bubble>
+</df-messenger>
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    --df-messenger-font-color: #000;
+    --df-messenger-font-family: Google Sans;
+    --df-messenger-chat-background: #f3f6fc;
+    --df-messenger-message-user-background: #d3e3fd;
+    --df-messenger-message-bot-background: #fff;
+    bottom: 16px;
+    right: 16px;
+  }
+</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="gok.svg" alt="Kenya Government Logo" class="logo">
+            <h1>Government of Kenya</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <section id="home">
+                <h2>Welcome to the Government of Kenya Website</h2>
+                <p>This is the official website of the Government of Kenya. Find information on government services, departments, news, and how to contact us.</p>
+            </section>
+            <section id="services">
+                <h2>Our Services</h2>
+                <p>Information on various services provided by the government.</p>
+            </section>
+            <section id="departments">
+                <h2>Government Departments</h2>
+                <p>Details about the different departments and their functions.</p>
+            </section>
+            <section id="news">
+                <h2>Latest News</h2>
+                <p>Stay updated with the latest news from the government.</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Government of Kenya. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="text.js"></script>
+</body>
+</html>
